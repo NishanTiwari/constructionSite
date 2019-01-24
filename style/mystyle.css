@@ -6,18 +6,20 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
 
-    
+   
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
+    height: 100px;
     align-items: center;
     font-size: 18px;
-    background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf   100%);
+    background-image: white;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 10px;
+
+    
    
 }
 .main-nav {
@@ -30,21 +32,19 @@ body {
 }
 .main-nav li {
     margin: 0;
-   
-    
- 
 }
 .nav-links {
     margin-right: 40px;
     color: black;
 }
-.logo {
+#logo {
     margin-top: 0;
+   
+  
+
 }
-.navbar-toggle {
-   display: none;
-}
+
 .logo:hover,
 .nav-links:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(20, 20, 20);
 }
